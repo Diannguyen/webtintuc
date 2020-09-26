@@ -4,14 +4,26 @@
 	padding: 0;
 	list-style: none;
 }
-div#content{
-	width: 699px;
-	display: inline-block;
+.page{
+	display: block;
+	margin: 0 auto;
+	width: 1004px;
 }
+div#left{
+	width: 699px;
+	/* display: inline-block; */
+	float: left;
+}
+div#right{
+	float: right;
+	width: 300px;
+	/* display: inline-block; */
+}
+
 .bangtin{
 	width: 347px;
 	display: inline-block;
-	vertical-align: top;
+	vertical-align:top;
 	/* //nhung the dung no thi nam tren cung 1 hang */
 }
 div.content{
@@ -23,19 +35,45 @@ img.img{
 	height: 100px;
 	float: left;
 	margin-right: 20px;
+	margin-bottom: 2px;
 }
 .poster{
 	width: 100%;
 }
+.ads-left{
+	float: left;
+	width: 347px;
+	margin: 2px 2px 2px 2px;
+}
+.ads-right{
+	width: 100%;
+
+}
+h3{
+	font-size: 17px;
+	text-align: left;
+	text-transform: uppercase;
+	display: block;
+	color: green;
+}
+div.lined{
+	border-bottom: 2px solid green ;
+	display: block;
+	width: 100%;
+	padding-bottom: 2px;
+	margin-bottom: 5px;
+}
+
 p.title{
 	color: black;
-	font-size: 20px;
+	font-size: 14px;
 	font-weight: bold;
 }
 p{
 	font-size: 12px;
 	display: block;
 	overflow: hidden;
+	margin-top: 5px;
 }
 span{
 	color: black;
