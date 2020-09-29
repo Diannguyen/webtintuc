@@ -42,8 +42,9 @@ img.img{
 }
 .ads-left{
 	float: left;
-	width: 347px;
-	margin: 2px 2px 2px 2px;
+	width: 336px;
+	height: 280px;
+	padding: 8px;
 }
 .ads-right{
 	width: 100%;
@@ -56,8 +57,22 @@ h3{
 	display: block;
 	color: green;
 }
+h3#h3_phaidep{
+	font-size: 17px;
+	text-align: left;
+	text-transform: uppercase;
+	display: block;
+	color:palevioletred;
+}
 div.lined{
 	border-bottom: 2px solid green ;
+	display: block;
+	width: 100%;
+	padding-bottom: 2px;
+	margin-bottom: 5px;
+}
+div.linedhong{
+	border-bottom: 2px solid palevioletred ;
 	display: block;
 	width: 100%;
 	padding-bottom: 2px;
@@ -83,4 +98,24 @@ ul{
 	background-color: #99FFCC;
 	width: 100%;
 	display: inline-block;
+}
+ul.phai{
+	width: 100%;
+	display: inline-block;
+	background-color: white;
+}
+li{	
+	float: left;
+	width: 100%;
+	font-size: 13px;
+	padding-top: 2px;
+}
+div.div_scroll{
+	height: 120px;
+	width: 350px;
+	display: inline-block;
+	overflow-y:scroll;
+}
+div.div_scroll ul{
+	background-color: white;
 }
