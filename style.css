@@ -19,6 +19,10 @@ div#right{
 	width: 300px;
 	/* display: inline-block; */
 }
+div#last{
+	width: 100%;
+	display: inline-block;
+}
 
 div.bangtin{
 	width: 347px;
@@ -26,7 +30,20 @@ div.bangtin{
 	vertical-align:top;
 	/* //nhung the dung no thi nam tren cung 1 hang */
 }
+div.bangtin_2{
+	width: 699px;
+	display: inline-block;
+	vertical-align: top;
+}
+div.tintuc{
+	display: block;
+    overflow: hidden;
+}
 div.content{
+	display: inline-block;
+	width: 100%;
+}
+div.content2{
 	display: inline-block;
 	width: 100%;
 }
@@ -40,16 +57,13 @@ div.videotieubieu{
 	width: 400px;
 	padding-top: 10px;
 	padding-right: 10px;
-	margin-top: 2px;
 }
 div.listvideo{
 	float: left;
-	width: 275px;
+	width: 288px;
 	height: 325px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border-left: 1px solid #ddd;
 	overflow-y: scroll;
+	overflow-x: hidden;
 }
 div.divvideo{
 	display: inline-block;
@@ -59,11 +73,25 @@ img.img{
 	width: 100px;
 	height: 100px;
 	float: left;
-	margin-right: 20px;
+	margin-right: 10px;
 	margin-bottom: 2px;
+}
+img.img2{
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 2px;
+	margin-right: 10px;
+}
+img.img3{
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
 }
 .poster{
 	width: 100%;
+	height: 120px;
 }
 .ads-left{
 	float: left;
@@ -109,7 +137,16 @@ h3#h3_video{
 	background: url(https://p7.hiclipart.com/preview/966/686/493/youtube-play-button-computer-icons-video-clip-youtube.jpg) no-repeat left center;
 	background-size: 20px;
 	padding-left: 25px;
-	padding-top: 10px;
+}
+h3#ttdoanhnghiep{
+	font-size: 17px;
+	border-bottom: 2px solid salmon;
+	color: salmon;
+	text-transform: uppercase;
+	background: url(https://atpcons.com/wp-content/uploads/2018/05/icon-enterprise.png)no-repeat left top;
+	background-size: 20px;
+	padding-left: 30px;
+	padding-bottom: 5px;
 }
 div.lined{
 	border-bottom: 2px solid green ;
@@ -142,26 +179,41 @@ span{
 	font-size: 10px;
 }
 ul{
-	background-color: #99FFCC;
 	width: 100%;
 	display: inline-block;
 }
-div.bangtin ul.tieude li h2{
+ul.tag{
 	float: left;
-	height: 18px;
-	font-size: 11px;
-	color: black;
+}
+ul.tag li{
+	display: inline-block;
+	background-color:rgba(168, 160, 160, 0.774);
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	white-space: nowrap;
+	font-size: 13px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-left: 1px;
+	align-items: center;
+}
+ul.tag li:first-child{
+	background-color:green ;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 0;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 0;
+	border-radius: 5px;
+	border-bottom-right-radius: 0;
+	color: white;
+	font-weight: bold;
 }
 ul.phai{
 	width: 100%;
 	display: inline-block;
 	background-color: white;
 }
-div#left ul li{	
+div#left div.bangtin ul.listtintuc li{	
 	float: left;
 	width: 100%;
 	font-size: 13px;
@@ -169,10 +221,11 @@ div#left ul li{
 	background: url(https://icons.iconarchive.com/icons/custom-icon-design/flatastic-6/512/Octagon-icon.png) no-repeat left center;
 	background-size: 5px;
 	padding-left: 10px;
+	overflow: hidden;
 }
 div#left div.listvideo div.divvideo ul.ulvideo li{
 	float: left;
-	width: 100%;
+	width: 254px;
 	font-size: 13px;
 	background: none;
 }
@@ -180,21 +233,34 @@ ul.ulvideo {
 	display: inline-block;
 	width: 100%;
 	background-color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	border-left: 1px solid #ddd;
 }
 ul.phai li{
 	float: left;
 	width: 100%;
 	font-size: 13px;
 	padding-top: 2px;
-	background: url(https://icons.iconarchive.com/icons/custom-icon-design/flatastic-6/512/Octagon-icon.png) no-repeat left center;
-	background-size: 5px;
-	padding-left: 10px;
+}
+ul.uldoanhnghiep{
+	display: inline-block;
+	width: 100%;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+ul.uldoanhnghiep li {
+	width: 248px;
+	display: inline-block;
+	background-color:burlywood;
 }
 div.div_scroll{
 	height: 120px;
 	width: 350px;
 	display: inline-block;
 	overflow-y:scroll;
+	overflow-x: hidden;
 }
 div.div_scroll ul{
 	background-color: white;
@@ -205,4 +271,21 @@ ul.ulvideo iframe{
 	height: 77px;
 	margin-right: 10px;
 	margin-bottom: 2px;
+}
+div.tintuc2 {
+	display: block;
+    overflow: hidden;
+}
+div.tintuc2 ul li{
+	width: 100%;
+	font-size: 13px;
+	padding-top: 2px;
+	background: url(https://icons.iconarchive.com/icons/custom-icon-design/flatastic-6/512/Octagon-icon.png) no-repeat left center;
+	background-size: 5px;
+	padding-left: 10px;
+}
+div.tintuc2 span{
+	background: url(https://www.seekpng.com/png/detail/40-406294_green-right-arrow-png-download-hnh-mi-tn.png)no-repeat left center;
+	background-size: 20px;
+	padding-left: 20px;
 }
