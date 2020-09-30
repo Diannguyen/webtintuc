@@ -20,7 +20,7 @@ div#right{
 	/* display: inline-block; */
 }
 
-.bangtin{
+div.bangtin{
 	width: 347px;
 	display: inline-block;
 	vertical-align:top;
@@ -29,6 +29,31 @@ div#right{
 div.content{
 	display: inline-block;
 	width: 100%;
+}
+div.tinvideo{
+	float: left;
+	width: 699px;
+	height: 382px;
+}
+div.videotieubieu{
+	float: left;
+	width: 400px;
+	padding-top: 10px;
+	padding-right: 10px;
+	margin-top: 2px;
+}
+div.listvideo{
+	float: left;
+	width: 275px;
+	height: 325px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-left: 1px solid #ddd;
+	overflow-y: scroll;
+}
+div.divvideo{
+	display: inline-block;
+	width: 100%;	
 }
 img.img{
 	width: 100px;
@@ -55,7 +80,17 @@ h3{
 	text-align: left;
 	text-transform: uppercase;
 	display: block;
-	color: green;
+	 color: green;
+}
+h3#h3_chungkhoang{
+	font-size: 17px;
+	text-align: left;
+	text-transform: uppercase;
+	display: block;
+	 color: green;
+	 background: url(http://cdn.24h.com.vn/images/icon_topck.png) no-repeat left center;
+	 background-size: 25px;
+	 padding-left: 30px;
 }
 h3#h3_phaidep{
 	font-size: 17px;
@@ -63,6 +98,18 @@ h3#h3_phaidep{
 	text-transform: uppercase;
 	display: block;
 	color:palevioletred;
+	background: url(https://img.favpng.com/12/21/12/logo-woman-png-favpng-sBLj3tEzkcLVeRqRc6LNta9ks.jpg)no-repeat left center;
+	background-size: 20px;
+	padding-left: 30px;
+}
+h3#h3_video{
+	border-bottom: 2px solid green;
+	color: green;
+	text-transform: uppercase;
+	background: url(https://p7.hiclipart.com/preview/966/686/493/youtube-play-button-computer-icons-video-clip-youtube.jpg) no-repeat left center;
+	background-size: 20px;
+	padding-left: 25px;
+	padding-top: 10px;
 }
 div.lined{
 	border-bottom: 2px solid green ;
@@ -99,16 +146,49 @@ ul{
 	width: 100%;
 	display: inline-block;
 }
+div.bangtin ul.tieude li h2{
+	float: left;
+	height: 18px;
+	font-size: 11px;
+	color: black;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	white-space: nowrap;
+}
 ul.phai{
 	width: 100%;
 	display: inline-block;
 	background-color: white;
 }
-li{	
+div#left ul li{	
 	float: left;
 	width: 100%;
 	font-size: 13px;
 	padding-top: 2px;
+	background: url(https://icons.iconarchive.com/icons/custom-icon-design/flatastic-6/512/Octagon-icon.png) no-repeat left center;
+	background-size: 5px;
+	padding-left: 10px;
+}
+div#left div.listvideo div.divvideo ul.ulvideo li{
+	float: left;
+	width: 100%;
+	font-size: 13px;
+	background: none;
+}
+ul.ulvideo {
+	display: inline-block;
+	width: 100%;
+	background-color: white;
+}
+ul.phai li{
+	float: left;
+	width: 100%;
+	font-size: 13px;
+	padding-top: 2px;
+	background: url(https://icons.iconarchive.com/icons/custom-icon-design/flatastic-6/512/Octagon-icon.png) no-repeat left center;
+	background-size: 5px;
+	padding-left: 10px;
 }
 div.div_scroll{
 	height: 120px;
@@ -118,4 +198,11 @@ div.div_scroll{
 }
 div.div_scroll ul{
 	background-color: white;
+}
+ul.ulvideo iframe{
+	float: left;
+	width: 130px;
+	height: 77px;
+	margin-right: 10px;
+	margin-bottom: 2px;
 }
