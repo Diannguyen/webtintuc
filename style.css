@@ -289,3 +289,61 @@ div.tintuc2 span{
 	background-size: 20px;
 	padding-left: 20px;
 }
+
+div.footer{
+	background-color: gainsboro;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+div.footercontent{
+	width: 1004px;
+	display: block;
+	margin: 0 auto;
+}
+div.footer1{
+	width: 100%;
+	display: inline-block;
+}
+div.footer1 ul{
+	float: left;
+	width: 130px;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 5px;
+}
+div.footer1 ul li{
+	margin: 5px;
+}
+div.footer1 ul li:first-child{
+	font-weight: bold;
+}
+div.footer2{
+	background-color:green;
+	width: 100%;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+}
+div.footer3{
+	width: 100%;
+	display: inline-block;
+}
+
+div.footer2 ul{
+	text-align: center;
+}
+div.footer2 ul li{
+	display: inline-block;
+	color: white;
+	font-size: 13px;
+	font-weight: 600;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+div.footer3 p{
+	display: inline-block;
+	text-align: center;
+	font-size: 13px;
+	color: #7d7d7d;
+	padding: 10px 0 0;
+}
