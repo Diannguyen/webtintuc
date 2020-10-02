@@ -347,3 +347,45 @@ div.footer3 p{
 	color: #7d7d7d;
 	padding: 10px 0 0;
 }
+header{
+	width:100%;
+	margin: 0 auto;
+	background-color: green;
+}
+div.logo{
+	float: left;
+	width: 90px;
+	height: 50px;
+	overflow: hidden;
+}
+img#logo{
+	display: inline;
+	padding-top: 5px;
+	margin: 0;
+}
+
+ul.tagmenu{
+	width: 815px;
+	border-left: 1px solid white;
+	border-right: 1px solid white ;
+}
+ul.tagmenu li{
+	display:inline-block;
+	height: 50px;
+	padding: 3px 3px 0;
+	position: relative;
+}
+ul.tagmenu li img{
+	display: block;
+	margin-bottom: 2px;
+}
+ul.tagmenu li span{
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	margin-top: -24px;
+	padding-right: 1px ;
+	padding-left: 1px;
+	text-align: center;
+}
