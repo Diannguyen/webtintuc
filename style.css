@@ -169,9 +169,8 @@ p.title{
 	font-weight: bold;
 }
 p{
-	font-size: 12px;
+	font-size: 13px;
 	display: block;
-	overflow: hidden;
 	margin-top: 5px;
 }
 span{
@@ -214,12 +213,15 @@ ul.phai{
 	display: inline-block;
 	background-color: white;
 }
+ul.listtintuc{
+	width: 340px;
+}
 div#left div.bangtin ul.listtintuc li{	
 	float: left;
 	width: 100%;
 	font-size: 13px;
 	padding-top: 2px;
-	background: url(https://icons.iconarchive.com/icons/custom-icon-design/flatastic-6/512/Octagon-icon.png) no-repeat left center;
+	background: #aad862 url(https://icons.iconarchive.com/icons/custom-icon-design/flatastic-6/512/Octagon-icon.png) no-repeat left center;
 	background-size: 5px;
 	padding-left: 10px;
 	overflow: hidden;
@@ -351,60 +353,66 @@ div.footer3 p{
 header{
 	width:100%;
 	margin: 0 auto;
-	background-color: green;
+	background-color: #78b43d;
 	font-family: Arial, Helvetica, sans-serif;
 }
 div.logo{
 	float: left;
-	width: 90px;
-	height: 50px;
+	width: 75px;
+	height: 37px;
+	margin-top: 4px;
 }
 img#logo{
-	display: inline;
-	padding-top: 5px;
+	display: inline-block;
 	margin: 0;
+	width: 100%;
 }
 ul.tagdanhmuc{
-	width: 70px;
-	height: 38px;
+	width: auto;
 	display: inline-block;
-	padding: 11px 0 5px 10px;
 	border-left: 1px solid#90c95a;
 	border-right: 1px solid #90c95a;
 	position: relative;
+	vertical-align: middle;
+	margin: 0 5px;
 }
 ul.tagdanhmuc li{
 	display: inline-block;
-	width: 100%;
+	padding: 5px 5px;
 }
 ul.tagdanhmuc li img{
-	display:	block;
-	margin-left: 15px;
+	display:block;
+	margin: 0 auto;
+	height: 20px;
 }
-ul.tagdanhmuc li span{
-	color: white;
-	font-size: 10px;
-	text-transform: uppercase;
-}
-ul.tagmenu{
-	display:inline;
-}
-ul.tagmenu li{
-	display:inline-block;
-	position: relative;
-}
-ul.tagmenu li img{
-	display: block;
-	margin-left: 15px;
-}
-ul.tagmenu li span{
+ul.tagdanhmuc li p{
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10px;
 	text-transform: uppercase;
-	margin-top: -24px;
-	padding-right: 1px ;
-	padding-left: 1px;
+	text-align: center;
+}
+ul.tagmenu{
+	width: auto;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+}
+ul.tagmenu li{
+	display:inline-block;
+	position: relative;
+	padding: 5px;
+}
+ul.tagmenu li img{
+	display: block;
+	margin: 0 auto;
+	height: 20px;
+}
+ul.tagmenu li p{
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
 	text-align: center;
 }
 ul.subtag{
@@ -420,6 +428,7 @@ ul.subtag li{
 	background-size: 5px;
 	padding-left: 15px;
 	padding-top: 6px;
+	position: relative;
 }
 ul.subtag li:hover{
 	background-color: #78b43d;
@@ -427,7 +436,7 @@ ul.subtag li:hover{
 ul.tagmenu li:hover ul.subtag{
 	display: block;
 	position: absolute;
-	top: 42px;
+	top: 46px;
 	left: 0;
 	width: 200px;
 }
@@ -441,17 +450,17 @@ ul.subtag2 li{
 	border-bottom: 1px solid #aad862;
 	background: #78b43d url(https://cdn.24h.com.vn/images/2014/menuDot.gif) no-repeat 5px center;
 }
-ul.tagdanhmuc li#danhmuc:hover ul.subtag{
+ul.tagdanhmuc li:hover ul.subtag{
 	display: block;
 	position: absolute;
-	top: 53px;
+	top: 46px;
 	left: 0;
 	width: 200px;
 }
 ul.tagdanhmuc li ul.subtag li:hover ul.subtag2{
 	display: block;
 	position: absolute;
-	top: 53px;
-	left: 215px;
+	top: 0;
+	left: 200px;
 	width: 200px;
 }
