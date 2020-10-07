@@ -184,21 +184,22 @@ ul{
 }
 ul.tag{
 	float: left;
+	font-family: Arial, Helvetica, sans-serif;
 }
 ul.tag li{
 	display: inline-block;
-	background-color:rgba(168, 160, 160, 0.774);
+	background-color: lightgrey;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	font-size: 13px;
+	font-size: 12px;
 	padding-right: 5px;
 	padding-left: 5px;
 	margin-left: 1px;
 	align-items: center;
 }
 ul.tag li:first-child{
-	background-color:green ;
+	background-color: #90c95a ;
 	-webkit-border-radius: 5px;
 	-webkit-border-bottom-right-radius: 0;
 	-moz-border-radius: 5px;
@@ -351,33 +352,50 @@ header{
 	width:100%;
 	margin: 0 auto;
 	background-color: green;
+	font-family: Arial, Helvetica, sans-serif;
 }
 div.logo{
 	float: left;
 	width: 90px;
 	height: 50px;
-	overflow: hidden;
 }
 img#logo{
 	display: inline;
 	padding-top: 5px;
 	margin: 0;
 }
-
+ul.tagdanhmuc{
+	width: 70px;
+	height: 38px;
+	display: inline-block;
+	padding: 11px 0 5px 10px;
+	border-left: 1px solid#90c95a;
+	border-right: 1px solid #90c95a;
+	position: relative;
+}
+ul.tagdanhmuc li{
+	display: inline-block;
+	width: 100%;
+}
+ul.tagdanhmuc li img{
+	display:	block;
+	margin-left: 15px;
+}
+ul.tagdanhmuc li span{
+	color: white;
+	font-size: 10px;
+	text-transform: uppercase;
+}
 ul.tagmenu{
-	width: 815px;
-	border-left: 1px solid white;
-	border-right: 1px solid white ;
+	display:inline;
 }
 ul.tagmenu li{
 	display:inline-block;
-	height: 50px;
-	padding: 3px 3px 0;
 	position: relative;
 }
 ul.tagmenu li img{
 	display: block;
-	margin-bottom: 2px;
+	margin-left: 15px;
 }
 ul.tagmenu li span{
 	color: white;
@@ -388,4 +406,52 @@ ul.tagmenu li span{
 	padding-right: 1px ;
 	padding-left: 1px;
 	text-align: center;
+}
+ul.subtag{
+	display: none;
+}
+ul.subtag li{
+	display:block;
+	color:black;
+	border-bottom: 1px solid #78b43d;
+	height: 20px;
+	font-size: 12px;
+	background: #aad862 url(https://cdn.24h.com.vn/images/2014/menuDot.gif) no-repeat 5px center;
+	background-size: 5px;
+	padding-left: 15px;
+	padding-top: 6px;
+}
+ul.subtag li:hover{
+	background-color: #78b43d;
+}
+ul.tagmenu li:hover ul.subtag{
+	display: block;
+	position: absolute;
+	top: 42px;
+	left: 0;
+	width: 200px;
+}
+ul.subtag2{
+	display:none;
+}
+ul.subtag2 li:hover{
+	color: white;
+}
+ul.subtag2 li{
+	border-bottom: 1px solid #aad862;
+	background: #78b43d url(https://cdn.24h.com.vn/images/2014/menuDot.gif) no-repeat 5px center;
+}
+ul.tagdanhmuc li#danhmuc:hover ul.subtag{
+	display: block;
+	position: absolute;
+	top: 53px;
+	left: 0;
+	width: 200px;
+}
+ul.tagdanhmuc li ul.subtag li:hover ul.subtag2{
+	display: block;
+	position: absolute;
+	top: 53px;
+	left: 215px;
+	width: 200px;
 }
